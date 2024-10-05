@@ -103,7 +103,7 @@
 			<?php endif; ?>
 			<?php if( $this->ion_auth->in_group('Student') ) : ?>
 			<li class="<?=$page==='TryOut'?"active":""?>">
-				<a href="https://nerolusi.e-ujian.id/main/student_login" rel="noopener noreferrer">
+				<a href="<?=base_url('ujian/video')?>" rel="noopener noreferrer">
 					<i class="fa fa-pencil"></i> <span>Try Out</span>
 				</a>
 	        </li>
